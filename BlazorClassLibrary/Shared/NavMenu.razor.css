@@ -1,0 +1,62 @@
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand {
+    font-size: 1.1rem;
+}
+
+.oi {
+    top: -2px;
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+}
+
+.nav-item {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item ::deep a {
+        display: flex;
+        height: 3rem;
+        color: #d7d7d7;
+        line-height: 3rem;
+        align-items: center;
+        border-radius: 4px;
+    }
+
+        .nav-item ::deep a.active {
+            color: white;
+            background-color: rgba(255,255,255,0.25);
+        }
+
+        .nav-item ::deep a:hover {
+            color: white;
+            background-color: rgba(255,255,255,0.1);
+        }
+
+@media only screen and (orientation: landscape) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .collapse {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}

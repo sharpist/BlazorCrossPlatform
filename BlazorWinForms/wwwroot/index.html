@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Blazor WinForms</title>
+    <base href="/" />
+    <link href="_content/BlazorClassLibrary/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="_content/BlazorClassLibrary/css/site.css" rel="stylesheet" />
+    <link href="BlazorWinForms.styles.css" rel="stylesheet" />
+
+    <!-- for water demo page -->
+    <script src="_content/BlazorClassLibrary/water/OES_texture_float_linear-polyfill.js" type="text/javascript"></script>
+    <script src="_content/BlazorClassLibrary/water/lightgl.js" type="text/javascript"></script>
+    <script src="_content/BlazorClassLibrary/water/cubemap.js" type="text/javascript"></script>
+    <script src="_content/BlazorClassLibrary/water/renderer.js" type="text/javascript"></script>
+    <script src="_content/BlazorClassLibrary/water/water.js" type="text/javascript"></script>
+    <script src="_content/BlazorClassLibrary/water/main.js" type="text/javascript"></script>
+</head>
+<body>
+    <!-- water demo -->
+    <img id="tiles" src="_content/BlazorClassLibrary/water/tiles.jpg" style="display: none" />
+    <img id="xneg" src="_content/BlazorClassLibrary/water/xneg.jpg" style="display: none" />
+    <img id="xpos" src="_content/BlazorClassLibrary/water/xpos.jpg" style="display: none" />
+    <img id="ypos" src="_content/BlazorClassLibrary/water/ypos.jpg" style="display: none" />
+    <img id="zneg" src="_content/BlazorClassLibrary/water/zneg.jpg" style="display: none" />
+    <img id="zpos" src="_content/BlazorClassLibrary/water/zpos.jpg" style="display: none" />
+
+    <div id="app">Loading...</div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.webview.js" type="text/javascript"></script>
+</body>
+</html>
